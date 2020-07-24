@@ -1,17 +1,18 @@
 import random
 import os
+import sys
 
 
 chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
 
 
-ilosc = input("Ilosc tokenow: \n")
+sys.stdout.write("\033[1;36m")
+ilosc = input("How many tokens to generate: \n")
 ilosc = int(ilosc)
-
 os.system('cls')
 
 for i in range(ilosc):
-
+    sys.stdout.write("\033[0;0m")
     token1 = ""
     token2 = ""
     token3 = ""
@@ -34,7 +35,10 @@ for i in range(ilosc):
 
     token = token1 + token2 + token3
 
-    print(token)
+    print (token)
 
+print("\n")
+sys.stdout.write("\033[1;31m")
 print("Tokens generated, if you want to copy tokens press [CTRL A] + [CTRL C]")
+sys.stdout.write("\033[0;0m")
 input("")
