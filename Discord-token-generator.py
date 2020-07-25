@@ -1,9 +1,13 @@
 import random
 import os
 import sys
+import pyfiglet
 
 
 chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
+ascii_banner = pyfiglet.figlet_format("Token  generator")
+print(ascii_banner)
+
 
 
 ilosc = input("How many tokens to generate: \n")
