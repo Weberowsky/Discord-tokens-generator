@@ -6,13 +6,11 @@ import sys
 chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
 
 
-sys.stdout.write("\033[1;36m")
 ilosc = input("How many tokens to generate: \n")
 ilosc = int(ilosc)
 os.system('cls')
 
 for i in range(ilosc):
-    sys.stdout.write("\033[0;0m")
     token1 = ""
     token2 = ""
     token3 = ""
