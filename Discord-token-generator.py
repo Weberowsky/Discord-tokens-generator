@@ -44,3 +44,4 @@ sys.stdout.write("\033[1;31m")
 print("Tokens generated, if you want to copy tokens press [CTRL A] + [CTRL C]")
 sys.stdout.write("\033[0;0m")
 input("")
+#literówka była
