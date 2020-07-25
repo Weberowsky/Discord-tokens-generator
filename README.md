@@ -9,6 +9,6 @@ python Discord-tokens-generator.py
 ## To do
 - [X] Code
 - [X] Colors
-- [ ] Design
+- [X] Design
 - [ ] Gui
 - [ ] Checker
