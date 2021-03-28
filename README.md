@@ -11,4 +11,4 @@ python Discord-tokens-generator.py
 - [X] Colors
 - [X] Design
 - [ ] Gui
-- [ ] Checker
+- [X] Checker
