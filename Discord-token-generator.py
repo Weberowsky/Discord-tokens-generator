@@ -5,7 +5,7 @@ import pyfiglet
 import requests
 from pathlib import Path
 
-chars = "-abcdefghijklmnopq_rstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
+chars = "-ODMwMzgwMTMzMTA1MTM5NzEz.YHF17g.YqNSEf_i-EDnO46mywDV-NmYkOQ"
 ascii_banner = pyfiglet.figlet_format("Token  generator")
 print(ascii_banner)
 file_path = Path('tokens.txt') 
