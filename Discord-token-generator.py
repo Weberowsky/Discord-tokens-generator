@@ -35,7 +35,7 @@ for i in range(ilosc):
 
 
 
-    token = token1 + token2
+    token = token2 + token1 
     headers={
         'Authorization': token 
     }
